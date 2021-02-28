@@ -61,6 +61,20 @@ using namespace std;
 
 int main(){
 
+for(int i : range(-100,10)){  // zasieg(od,do)..
+    cout << i << " ";
+}
+cout << endl;
+cout << endl;
+
+for(int i : range (18,-18)){
+    cout << i << " ";
+}
+cout << endl;
+
+cout << endl << string(200,'%') << endl;
+cout << endl << string(200,'#') << endl;
+cout << endl << string(200,'$') << endl;
     
 
     return 0;
