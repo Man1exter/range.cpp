@@ -59,6 +59,22 @@ using namespace std;
 		};
 
 
+void function1(){
+
+vector<int>vec;
+int a,b;
+cout << "od ilu " << "";
+cin >> a;
+cout << "do ilu " << "";
+cin >> b;
+for(int i : range(a,b)){
+vec.push_back(i);
+}
+cout << "ZAWARTOSC KONTENERA: " << endl;
+printSTL(vec , " " , true);
+
+}
+
 int main(){
 
 for(int i : range(-100,10)){  // zasieg(od,do)..
@@ -75,6 +91,10 @@ cout << endl;
 cout << endl << string(200,'%') << endl;
 cout << endl << string(200,'#') << endl;
 cout << endl << string(200,'$') << endl;
+
+cout << endl;
+
+function1();
     
 
     return 0;
