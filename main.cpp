@@ -75,6 +75,23 @@ printSTL(vec , " " , true);
 
 }
 
+void function2(){
+    cout << endl;
+
+    vector<int>vec2;
+int a,b;
+cout << "od ilu " << "";
+cin >> a;
+cout << "do ilu " << "";
+cin >> b;
+for(int i : range(a,b)){
+vec2.push_back(i * 2);
+}
+cout << "ZAWARTOSC KONTENERA MNOZONEGO RAZY 2: " << endl;
+printSTL(vec2 , " " , true);
+
+}
+
 int main(){
 
 for(int i : range(-100,10)){  // zasieg(od,do)..
@@ -95,7 +112,7 @@ cout << endl << string(200,'$') << endl;
 cout << endl;
 
 function1();
+function2();
     
-
     return 0;
 }
